@@ -1,0 +1,32 @@
+<html>
+    <head>
+        <link="stylesheet" href="./exampleStyle.css">
+        <Script lang="javascript" src="./exampleJsFile.js"></Script>
+    </head>
+    <body>
+        <div id="error">
+
+        </div>
+        <div class="box">
+            A:<input type="text" id="textA" onkeyup="checkInteger(this)"><br>
+            B:<input type="text" id="textB" onkeyup="checkInteger(this)"><br>
+
+
+        </div>
+        <div class="box">
+            <select>
+                <option id="add">AddNumbers</option>
+                <option id="sub">Subtract</option>
+                <option id="mul">Multiply</option>
+                <option id="div">Division</option>
+            </select><br>
+
+        </div>
+        <div class="box">
+            <input type="button" value="Clickme" onkeypress="main()"><br>
+        </div>
+        <div id="result" class="box">
+
+        </div>
+    </body>
+</html>

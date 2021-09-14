@@ -1,0 +1,37 @@
+.box
+{
+    border: 1px solid purple;
+    margin: 10px;
+    padding: 20px;
+    font-size: 10px;
+}
+.box
+{
+    margin: 10px;
+    padding: 20px;
+    font-size: 10px;
+    
+}
+.box input
+{
+  margin: 10px;
+  padding: 20px;
+  font-size: 10px;  
+
+}
+.box select
+{
+    margin: 10px;
+    font-size: 20px;
+
+}
+.box button
+{
+    margin: 10px;
+    font-size: 20px;
+}
+.error
+{
+    font-size: 10px;
+    color: red;
+}
